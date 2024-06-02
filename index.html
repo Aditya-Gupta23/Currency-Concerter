@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Convertor</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Because Money Matters</h1>
+    </header>
+    <main>
+        <div id="box">
+            <h1>Currency Converter</h1>
+            <div class="from">
+                <input type="number" placeholder="Convert From" min="1"  class="amt">
+                <select name="" id="dbfrom">
+                <!-- <option value="">USD</option>
+                <option value="">INR</option> -->
+                </select>
+            </div>
+            <div class="down">
+                <span class="material-icons large-icon">
+                    arrow_downward
+                    </span>
+            </div>
+            <div class="to">
+                <input type="number" placeholder="Convert To" class="camt" disabled>
+                <select name="" id="dbto">        
+                <!-- <option value="">USD </option>
+                <option value="">INR</option> -->
+            </select>
+            </div class="result">
+            <h3 id="res">1 USD = 82 INR</h3>
+        </div>
+    </main>
+    <footer>
+        <p>&copy Made by Aditya Gupta on Macbook Air M2</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
